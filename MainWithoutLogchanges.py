@@ -1,20 +1,12 @@
-import os
+from playwright.sync_api import Playwright, sync_playwright
 import logging
+import os
+import time
 from datetime import datetime
 import pandas as pd
-from playwright.sync_api import Playwright, sync_playwright
-import time
-
-# Dynamically set the download path based on the script location
-script_dir = os.path.dirname(os.path.realpath(__file__))  # Get the directory of the current script
-strDownloadPath = script_dir  # Set download path to the script's directory
-
-# Create the "Logs" directory inside the download path if it doesn't exist
-logs_dir = os.path.join(strDownloadPath, "Logs")
-os.makedirs(logs_dir, exist_ok=True)
 
 # Generate a timestamp for the log file
-log_filename = os.path.join(logs_dir, f"progress_{datetime.now().strftime('%d-%m-%Y_%H-%M-%S')}.log")
+log_filename = f"progress_{datetime.now().strftime('%d-%m-%Y_%H-%M-%S')}.log"
 
 # Configure logging to include a timestamp in the log filename
 logging.basicConfig(filename=log_filename, level=logging.INFO, format='%(asctime)s - %(message)s', datefmt='%d-%m-%Y_%H-%M-%S')
@@ -69,7 +61,7 @@ def search_in_page(playwright: Playwright, url: str, search_bar_selector: str, s
     log_message("New page opened")
 
     log_message(f"Navigating to URL: {url}")
-    page.goto(url, timeout=100000, wait_until="domcontentloaded")
+    page.goto(url, timeout=100000,wait_until="domcontentloaded")
     log_message("Page loaded")
 
     log_message(f"Clicking on the search bar: {search_bar_selector}")
@@ -110,7 +102,7 @@ def search_in_page(playwright: Playwright, url: str, search_bar_selector: str, s
 
     # Save the downloaded file with timestamp in the file name
     timestamp = datetime.now().strftime("%d-%m-%Y_%H-%M-%S")
-    download_path = os.path.join(strDownloadPath, "Downloads", f'{search_text}.csv')
+    download_path = os.path.join(strDownloadPath, "Downloads", search_text, f'{search_text}_{timestamp}.csv')
     download.save_as(download_path)
     log_message(f"Successfully downloaded data for {search_text} to {download_path}")
 
@@ -132,10 +124,10 @@ def run(SearchTerm):
             '#resultsDark > a:nth-child(1)',
             'body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)',
             'body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button',
-            strDownloadPath)
+            r'D:\Devanshi\Self study\USStockDownloder')
 
 if __name__ == '__main__':
     ls = ['AMD','TSLA', 'META', 'AAPL', 'MSFT']
-    #[]'TSLA', 'META', 'AAPL', 'MSFT']
+    #['TSLA', 'META', 'AAPL', 'MSFT']
     for i in range(len(ls)):
         run(ls[i])

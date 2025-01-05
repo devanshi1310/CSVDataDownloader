@@ -1,0 +1,125 @@
+06-01-2025_00-44-39 - Launching browser
+06-01-2025_00-44-39 - Browser launched
+06-01-2025_00-44-39 - Creating a new browser context
+06-01-2025_00-44-39 - Browser context created
+06-01-2025_00-44-39 - Opening a new page
+06-01-2025_00-44-40 - New page opened
+06-01-2025_00-44-40 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+06-01-2025_00-44-41 - Page loaded
+06-01-2025_00-44-41 - Clicking on the search bar: #find-symbol-input-dark
+06-01-2025_00-44-42 - Search bar clicked
+06-01-2025_00-44-42 - Typing text into the search bar: AMD
+06-01-2025_00-44-42 - Text typed into the search bar
+06-01-2025_00-44-42 - Verification successful: Text correctly typed in the search bar
+06-01-2025_00-44-42 - Pressing Enter to search
+06-01-2025_00-44-42 - Enter key pressed
+06-01-2025_00-44-42 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+06-01-2025_00-44-43 - Option to select clicked
+06-01-2025_00-44-43 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+06-01-2025_00-44-46 - Max clicked
+06-01-2025_00-44-46 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+06-01-2025_00-44-47 - Download clicked
+06-01-2025_00-44-47 - Successfully downloaded data for AMD to D:\Devanshi\Self study\USStockDownloder\Downloads\AMD\AMD_06-01-2025_00-44-47.csv
+06-01-2025_00-44-47 - CSV formatted, headers removed, and saved at D:\Devanshi\Self study\USStockDownloder\Downloads\AMD\AMD_06-01-2025_00-44-47.csv
+06-01-2025_00-44-47 - Closing the browser
+06-01-2025_00-44-47 - Browser closed
+06-01-2025_00-44-48 - Launching browser
+06-01-2025_00-44-48 - Browser launched
+06-01-2025_00-44-48 - Creating a new browser context
+06-01-2025_00-44-48 - Browser context created
+06-01-2025_00-44-48 - Opening a new page
+06-01-2025_00-44-48 - New page opened
+06-01-2025_00-44-48 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+06-01-2025_00-44-49 - Page loaded
+06-01-2025_00-44-49 - Clicking on the search bar: #find-symbol-input-dark
+06-01-2025_00-44-50 - Search bar clicked
+06-01-2025_00-44-50 - Typing text into the search bar: TSLA
+06-01-2025_00-44-50 - Text typed into the search bar
+06-01-2025_00-44-50 - Verification successful: Text correctly typed in the search bar
+06-01-2025_00-44-50 - Pressing Enter to search
+06-01-2025_00-44-50 - Enter key pressed
+06-01-2025_00-44-50 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+06-01-2025_00-44-51 - Option to select clicked
+06-01-2025_00-44-51 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+06-01-2025_00-44-53 - Max clicked
+06-01-2025_00-44-53 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+06-01-2025_00-44-54 - Download clicked
+06-01-2025_00-44-55 - Successfully downloaded data for TSLA to D:\Devanshi\Self study\USStockDownloder\Downloads\TSLA\TSLA_06-01-2025_00-44-54.csv
+06-01-2025_00-44-55 - CSV formatted, headers removed, and saved at D:\Devanshi\Self study\USStockDownloder\Downloads\TSLA\TSLA_06-01-2025_00-44-54.csv
+06-01-2025_00-44-55 - Closing the browser
+06-01-2025_00-44-55 - Browser closed
+06-01-2025_00-44-55 - Launching browser
+06-01-2025_00-44-56 - Browser launched
+06-01-2025_00-44-56 - Creating a new browser context
+06-01-2025_00-44-56 - Browser context created
+06-01-2025_00-44-56 - Opening a new page
+06-01-2025_00-44-56 - New page opened
+06-01-2025_00-44-56 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+06-01-2025_00-44-57 - Page loaded
+06-01-2025_00-44-57 - Clicking on the search bar: #find-symbol-input-dark
+06-01-2025_00-44-57 - Search bar clicked
+06-01-2025_00-44-57 - Typing text into the search bar: META
+06-01-2025_00-44-58 - Text typed into the search bar
+06-01-2025_00-44-58 - Verification successful: Text correctly typed in the search bar
+06-01-2025_00-44-58 - Pressing Enter to search
+06-01-2025_00-44-58 - Enter key pressed
+06-01-2025_00-44-58 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+06-01-2025_00-45-00 - Option to select clicked
+06-01-2025_00-45-00 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+06-01-2025_00-45-01 - Max clicked
+06-01-2025_00-45-01 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+06-01-2025_00-45-02 - Download clicked
+06-01-2025_00-45-03 - Successfully downloaded data for META to D:\Devanshi\Self study\USStockDownloder\Downloads\META\META_06-01-2025_00-45-02.csv
+06-01-2025_00-45-03 - CSV formatted, headers removed, and saved at D:\Devanshi\Self study\USStockDownloder\Downloads\META\META_06-01-2025_00-45-02.csv
+06-01-2025_00-45-03 - Closing the browser
+06-01-2025_00-45-03 - Browser closed
+06-01-2025_00-45-04 - Launching browser
+06-01-2025_00-45-04 - Browser launched
+06-01-2025_00-45-04 - Creating a new browser context
+06-01-2025_00-45-04 - Browser context created
+06-01-2025_00-45-04 - Opening a new page
+06-01-2025_00-45-04 - New page opened
+06-01-2025_00-45-04 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+06-01-2025_00-45-05 - Page loaded
+06-01-2025_00-45-05 - Clicking on the search bar: #find-symbol-input-dark
+06-01-2025_00-45-06 - Search bar clicked
+06-01-2025_00-45-06 - Typing text into the search bar: AAPL
+06-01-2025_00-45-06 - Text typed into the search bar
+06-01-2025_00-45-06 - Verification successful: Text correctly typed in the search bar
+06-01-2025_00-45-06 - Pressing Enter to search
+06-01-2025_00-45-06 - Enter key pressed
+06-01-2025_00-45-06 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+06-01-2025_00-45-08 - Option to select clicked
+06-01-2025_00-45-08 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+06-01-2025_00-45-09 - Max clicked
+06-01-2025_00-45-09 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+06-01-2025_00-45-10 - Download clicked
+06-01-2025_00-45-11 - Successfully downloaded data for AAPL to D:\Devanshi\Self study\USStockDownloder\Downloads\AAPL\AAPL_06-01-2025_00-45-10.csv
+06-01-2025_00-45-11 - CSV formatted, headers removed, and saved at D:\Devanshi\Self study\USStockDownloder\Downloads\AAPL\AAPL_06-01-2025_00-45-10.csv
+06-01-2025_00-45-11 - Closing the browser
+06-01-2025_00-45-11 - Browser closed
+06-01-2025_00-45-12 - Launching browser
+06-01-2025_00-45-12 - Browser launched
+06-01-2025_00-45-12 - Creating a new browser context
+06-01-2025_00-45-12 - Browser context created
+06-01-2025_00-45-12 - Opening a new page
+06-01-2025_00-45-12 - New page opened
+06-01-2025_00-45-12 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+06-01-2025_00-45-13 - Page loaded
+06-01-2025_00-45-13 - Clicking on the search bar: #find-symbol-input-dark
+06-01-2025_00-45-14 - Search bar clicked
+06-01-2025_00-45-14 - Typing text into the search bar: MSFT
+06-01-2025_00-45-14 - Text typed into the search bar
+06-01-2025_00-45-14 - Verification successful: Text correctly typed in the search bar
+06-01-2025_00-45-14 - Pressing Enter to search
+06-01-2025_00-45-14 - Enter key pressed
+06-01-2025_00-45-14 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+06-01-2025_00-45-16 - Option to select clicked
+06-01-2025_00-45-16 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+06-01-2025_00-45-17 - Max clicked
+06-01-2025_00-45-17 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+06-01-2025_00-45-18 - Download clicked
+06-01-2025_00-45-19 - Successfully downloaded data for MSFT to D:\Devanshi\Self study\USStockDownloder\Downloads\MSFT\MSFT_06-01-2025_00-45-18.csv
+06-01-2025_00-45-19 - CSV formatted, headers removed, and saved at D:\Devanshi\Self study\USStockDownloder\Downloads\MSFT\MSFT_06-01-2025_00-45-18.csv
+06-01-2025_00-45-19 - Closing the browser
+06-01-2025_00-45-19 - Browser closed

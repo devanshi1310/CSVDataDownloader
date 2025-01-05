@@ -1,0 +1,25 @@
+06-01-2025_00-43-49 - Launching browser
+06-01-2025_00-43-49 - Browser launched
+06-01-2025_00-43-49 - Creating a new browser context
+06-01-2025_00-43-49 - Browser context created
+06-01-2025_00-43-49 - Opening a new page
+06-01-2025_00-43-50 - New page opened
+06-01-2025_00-43-50 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+06-01-2025_00-43-51 - Page loaded
+06-01-2025_00-43-51 - Clicking on the search bar: #find-symbol-input-dark
+06-01-2025_00-43-52 - Search bar clicked
+06-01-2025_00-43-52 - Typing text into the search bar: AMD
+06-01-2025_00-43-52 - Text typed into the search bar
+06-01-2025_00-43-52 - Verification successful: Text correctly typed in the search bar
+06-01-2025_00-43-52 - Pressing Enter to search
+06-01-2025_00-43-52 - Enter key pressed
+06-01-2025_00-43-52 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+06-01-2025_00-43-53 - Option to select clicked
+06-01-2025_00-43-53 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+06-01-2025_00-43-55 - Max clicked
+06-01-2025_00-43-55 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+06-01-2025_00-43-55 - Download clicked
+06-01-2025_00-43-56 - Successfully downloaded data for AMD to D:\Devanshi\Self study\USStockDownloder\Downloads\AMD\AMD_06-01-2025_00-43-55.csv
+06-01-2025_00-43-56 - CSV formatted, headers removed, and saved at D:\Devanshi\Self study\USStockDownloder\Downloads\AMD\AMD_06-01-2025_00-43-55.csv
+06-01-2025_00-43-56 - Closing the browser
+06-01-2025_00-43-56 - Browser closed
