@@ -515,3 +515,334 @@
 2024-05-28 00:29:27,550 - Successfully downloaded data for MSFT to C:\Users\DEVANSHI\AppData\Local\Temp\playwright-artifacts-XXXXXXkNCOIJ\bad1ee83-60ff-4b88-9542-4c018fb6bf4d
 2024-05-28 00:29:27,550 - Closing the browser
 2024-05-28 00:29:27,964 - Browser closed
+2024-10-20 19:10:13,464 - Launching browser
+2024-10-20 19:10:14,772 - Browser launched
+2024-10-20 19:10:14,772 - Creating a new browser context
+2024-10-20 19:10:14,801 - Browser context created
+2024-10-20 19:10:14,801 - Opening a new page
+2024-10-20 19:10:15,198 - New page opened
+2024-10-20 19:10:15,198 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+2024-10-20 19:11:32,506 - Page loaded
+2024-10-20 19:11:32,506 - Clicking on the search bar: #find-symbol-input-dark
+2024-10-20 19:11:32,660 - Search bar clicked
+2024-10-20 19:11:32,661 - Typing text into the search bar: AMD
+2024-10-20 19:11:32,703 - Text typed into the search bar
+2024-10-20 19:11:32,715 - Verification successful: Text correctly typed in the search bar
+2024-10-20 19:11:32,715 - Pressing Enter to search
+2024-10-20 19:11:32,740 - Enter key pressed
+2024-10-20 19:11:32,740 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+2024-10-20 19:11:38,185 - Option to select clicked
+2024-10-20 19:11:43,191 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+2024-10-20 19:11:43,369 - Max clicked
+2024-10-20 19:11:48,378 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+2024-10-20 19:11:50,470 - Download clicked
+2024-10-20 19:11:50,839 - Successfully downloaded data for AMD to C:\Users\DEVANSHI\AppData\Local\Temp\playwright-artifacts-XXXXXXs7dQMg\a9a8a0c9-3630-4923-b6c4-4c6de59fc225
+2024-10-20 19:11:50,839 - Closing the browser
+2024-10-20 19:11:51,246 - Browser closed
+2024-10-20 19:11:54,720 - Launching browser
+2024-10-20 19:11:54,978 - Browser launched
+2024-10-20 19:11:54,978 - Creating a new browser context
+2024-10-20 19:11:54,998 - Browser context created
+2024-10-20 19:11:54,998 - Opening a new page
+2024-10-20 19:11:55,331 - New page opened
+2024-10-20 19:11:55,331 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+2024-10-20 19:12:40,595 - Page loaded
+2024-10-20 19:12:40,595 - Clicking on the search bar: #find-symbol-input-dark
+2024-10-20 19:12:40,709 - Search bar clicked
+2024-10-20 19:12:40,709 - Typing text into the search bar: TSLA
+2024-10-20 19:12:40,736 - Text typed into the search bar
+2024-10-20 19:12:40,746 - Verification successful: Text correctly typed in the search bar
+2024-10-20 19:12:40,747 - Pressing Enter to search
+2024-10-20 19:12:40,762 - Enter key pressed
+2024-10-20 19:12:40,763 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+2024-10-20 19:12:43,767 - Option to select clicked
+2024-10-20 19:12:48,771 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+2024-10-20 19:12:50,397 - Max clicked
+2024-10-20 19:12:55,405 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+2024-10-20 19:12:58,159 - Download clicked
+2024-10-20 19:12:58,306 - Successfully downloaded data for TSLA to C:\Users\DEVANSHI\AppData\Local\Temp\playwright-artifacts-XXXXXXq6wwvf\345a6699-7ab9-4916-a024-f58f08823aae
+2024-10-20 19:12:58,306 - Closing the browser
+2024-10-20 19:12:58,700 - Browser closed
+2024-10-20 19:12:59,149 - Launching browser
+2024-10-20 19:12:59,373 - Browser launched
+2024-10-20 19:12:59,373 - Creating a new browser context
+2024-10-20 19:12:59,397 - Browser context created
+2024-10-20 19:12:59,397 - Opening a new page
+2024-10-20 19:12:59,609 - New page opened
+2024-10-20 19:12:59,609 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+2024-10-20 19:13:42,333 - Page loaded
+2024-10-20 19:13:42,333 - Clicking on the search bar: #find-symbol-input-dark
+2024-10-20 19:13:42,454 - Search bar clicked
+2024-10-20 19:13:42,454 - Typing text into the search bar: META
+2024-10-20 19:13:42,476 - Text typed into the search bar
+2024-10-20 19:13:42,485 - Verification successful: Text correctly typed in the search bar
+2024-10-20 19:13:42,485 - Pressing Enter to search
+2024-10-20 19:13:42,500 - Enter key pressed
+2024-10-20 19:13:42,500 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+2024-10-20 19:13:47,735 - Option to select clicked
+2024-10-20 19:13:52,742 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+2024-10-20 19:13:55,615 - Max clicked
+2024-10-20 19:14:00,618 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+2024-10-20 19:14:01,643 - Download clicked
+2024-10-20 19:14:01,769 - Successfully downloaded data for META to C:\Users\DEVANSHI\AppData\Local\Temp\playwright-artifacts-XXXXXXKB85hf\798cd44f-492c-4a96-80b8-3568e2ea63ef
+2024-10-20 19:14:01,770 - Closing the browser
+2024-10-20 19:14:02,055 - Browser closed
+2024-10-20 19:14:02,427 - Launching browser
+2024-10-20 19:14:02,645 - Browser launched
+2024-10-20 19:14:02,645 - Creating a new browser context
+2024-10-20 19:14:02,664 - Browser context created
+2024-10-20 19:14:02,664 - Opening a new page
+2024-10-20 19:14:02,901 - New page opened
+2024-10-20 19:14:02,901 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+2024-10-20 19:14:39,962 - Page loaded
+2024-10-20 19:14:39,962 - Clicking on the search bar: #find-symbol-input-dark
+2024-10-20 19:14:40,076 - Search bar clicked
+2024-10-20 19:14:40,076 - Typing text into the search bar: AAPL
+2024-10-20 19:14:40,102 - Text typed into the search bar
+2024-10-20 19:14:40,113 - Verification successful: Text correctly typed in the search bar
+2024-10-20 19:14:40,113 - Pressing Enter to search
+2024-10-20 19:14:40,128 - Enter key pressed
+2024-10-20 19:14:40,129 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+2024-10-20 19:14:43,244 - Option to select clicked
+2024-10-20 19:14:48,258 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+2024-10-20 19:14:49,246 - Max clicked
+2024-10-20 19:14:54,258 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+2024-10-20 19:14:56,548 - Download clicked
+2024-10-20 19:14:56,697 - Successfully downloaded data for AAPL to C:\Users\DEVANSHI\AppData\Local\Temp\playwright-artifacts-XXXXXXUqjkIo\cda317bb-2298-42fe-a3a7-caaaca609125
+2024-10-20 19:14:56,697 - Closing the browser
+2024-10-20 19:14:56,982 - Browser closed
+2024-10-20 19:14:57,385 - Launching browser
+2024-10-20 19:14:57,611 - Browser launched
+2024-10-20 19:14:57,611 - Creating a new browser context
+2024-10-20 19:14:57,633 - Browser context created
+2024-10-20 19:14:57,633 - Opening a new page
+2024-10-20 19:14:57,888 - New page opened
+2024-10-20 19:14:57,888 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+2024-10-20 19:15:54,417 - Page loaded
+2024-10-20 19:15:54,417 - Clicking on the search bar: #find-symbol-input-dark
+2024-10-20 19:15:54,546 - Search bar clicked
+2024-10-20 19:15:54,547 - Typing text into the search bar: MSFT
+2024-10-20 19:15:54,577 - Text typed into the search bar
+2024-10-20 19:15:54,589 - Verification successful: Text correctly typed in the search bar
+2024-10-20 19:15:54,589 - Pressing Enter to search
+2024-10-20 19:15:54,608 - Enter key pressed
+2024-10-20 19:15:54,608 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+2024-10-20 19:15:59,599 - Option to select clicked
+2024-10-20 19:16:04,608 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+2024-10-20 19:16:06,278 - Max clicked
+2024-10-20 19:16:11,292 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+2024-10-20 19:16:14,120 - Download clicked
+2024-10-20 19:16:14,287 - Successfully downloaded data for MSFT to C:\Users\DEVANSHI\AppData\Local\Temp\playwright-artifacts-XXXXXXhwnfiQ\fb8ed606-d262-4dd4-a628-c68ddab42549
+2024-10-20 19:16:14,287 - Closing the browser
+2024-10-20 19:16:19,200 - Browser closed
+2024-10-20 23:42:46,900 - Launching browser
+2024-10-20 23:42:47,646 - Browser launched
+2024-10-20 23:42:47,648 - Creating a new browser context
+2024-10-20 23:42:47,697 - Browser context created
+2024-10-20 23:42:47,699 - Opening a new page
+2024-10-20 23:42:48,173 - New page opened
+2024-10-20 23:42:48,173 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+2024-10-20 23:43:31,522 - Launching browser
+2024-10-20 23:43:31,977 - Browser launched
+2024-10-20 23:43:31,979 - Creating a new browser context
+2024-10-20 23:43:32,005 - Browser context created
+2024-10-20 23:43:32,016 - Opening a new page
+2024-10-20 23:43:32,507 - New page opened
+2024-10-20 23:43:32,508 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+2024-10-20 23:44:07,794 - Page loaded
+2024-10-20 23:44:07,794 - Clicking on the search bar: #find-symbol-input-dark
+2024-10-20 23:44:08,005 - Search bar clicked
+2024-10-20 23:44:08,006 - Typing text into the search bar: AMD
+2024-10-20 23:44:08,037 - Text typed into the search bar
+2024-10-20 23:44:08,055 - Verification successful: Text correctly typed in the search bar
+2024-10-20 23:44:08,055 - Pressing Enter to search
+2024-10-20 23:44:08,088 - Enter key pressed
+2024-10-20 23:44:08,089 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+2024-10-20 23:44:11,143 - Option to select clicked
+2024-10-20 23:44:11,143 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+2024-10-20 23:44:13,892 - Max clicked
+2024-10-20 23:44:13,893 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+2024-10-20 23:44:14,951 - Download clicked
+2024-10-20 23:44:15,546 - Successfully downloaded data for AMD to C:\Users\DEVANSHI\AppData\Local\Temp\playwright-artifacts-XXXXXXxByd5q\78de4931-25c5-4263-a598-f9d3899ae6bf
+2024-10-20 23:44:15,546 - Closing the browser
+2024-10-20 23:44:16,020 - Browser closed
+2024-10-20 23:44:16,810 - Launching browser
+2024-10-20 23:44:17,184 - Browser launched
+2024-10-20 23:44:17,184 - Creating a new browser context
+2024-10-20 23:44:17,213 - Browser context created
+2024-10-20 23:44:17,213 - Opening a new page
+2024-10-20 23:44:17,561 - New page opened
+2024-10-20 23:44:17,563 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+2024-10-20 23:44:26,070 - Page loaded
+2024-10-20 23:44:26,070 - Clicking on the search bar: #find-symbol-input-dark
+2024-10-20 23:44:26,212 - Search bar clicked
+2024-10-20 23:44:26,213 - Typing text into the search bar: TSLA
+2024-10-20 23:44:26,243 - Text typed into the search bar
+2024-10-20 23:44:26,257 - Verification successful: Text correctly typed in the search bar
+2024-10-20 23:44:26,257 - Pressing Enter to search
+2024-10-20 23:44:26,283 - Enter key pressed
+2024-10-20 23:44:26,283 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+2024-10-20 23:44:28,649 - Option to select clicked
+2024-10-20 23:44:28,650 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+2024-10-20 23:44:33,546 - Max clicked
+2024-10-20 23:44:33,547 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+2024-10-20 23:44:34,776 - Download clicked
+2024-10-20 23:44:34,988 - Successfully downloaded data for TSLA to C:\Users\DEVANSHI\AppData\Local\Temp\playwright-artifacts-XXXXXXZDAyBJ\f7ae2ec8-9af4-4ad4-83ab-c5c7c97a599a
+2024-10-20 23:44:34,989 - Closing the browser
+2024-10-20 23:44:35,393 - Browser closed
+2024-10-20 23:44:36,114 - Launching browser
+2024-10-20 23:44:36,484 - Browser launched
+2024-10-20 23:44:36,484 - Creating a new browser context
+2024-10-20 23:44:36,519 - Browser context created
+2024-10-20 23:44:36,520 - Opening a new page
+2024-10-20 23:44:36,864 - New page opened
+2024-10-20 23:44:36,865 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+2024-10-20 23:45:08,218 - Page loaded
+2024-10-20 23:45:08,219 - Clicking on the search bar: #find-symbol-input-dark
+2024-10-20 23:45:08,398 - Search bar clicked
+2024-10-20 23:45:08,399 - Typing text into the search bar: META
+2024-10-20 23:45:08,433 - Text typed into the search bar
+2024-10-20 23:45:08,448 - Verification successful: Text correctly typed in the search bar
+2024-10-20 23:45:08,449 - Pressing Enter to search
+2024-10-20 23:45:08,476 - Enter key pressed
+2024-10-20 23:45:08,477 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+2024-10-20 23:45:12,179 - Option to select clicked
+2024-10-20 23:45:12,180 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+2024-10-20 23:45:14,667 - Max clicked
+2024-10-20 23:45:14,668 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+2024-10-20 23:45:15,889 - Download clicked
+2024-10-20 23:45:16,135 - Successfully downloaded data for META to C:\Users\DEVANSHI\AppData\Local\Temp\playwright-artifacts-XXXXXX9HH4ZA\85db65d7-7c47-4132-ba29-3e3958b7117d
+2024-10-20 23:45:16,136 - Closing the browser
+2024-10-20 23:45:16,591 - Browser closed
+2024-10-20 23:45:17,202 - Launching browser
+2024-10-20 23:45:17,502 - Browser launched
+2024-10-20 23:45:17,502 - Creating a new browser context
+2024-10-20 23:45:17,530 - Browser context created
+2024-10-20 23:45:17,530 - Opening a new page
+2024-10-20 23:45:17,874 - New page opened
+2024-10-20 23:45:17,875 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+2024-10-20 23:45:58,479 - Page loaded
+2024-10-20 23:45:58,480 - Clicking on the search bar: #find-symbol-input-dark
+2024-10-20 23:45:58,650 - Search bar clicked
+2024-10-20 23:45:58,651 - Typing text into the search bar: AAPL
+2024-10-20 23:45:58,682 - Text typed into the search bar
+2024-10-20 23:45:58,695 - Verification successful: Text correctly typed in the search bar
+2024-10-20 23:45:58,696 - Pressing Enter to search
+2024-10-20 23:45:58,720 - Enter key pressed
+2024-10-20 23:45:58,720 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+2024-10-20 23:46:02,102 - Option to select clicked
+2024-10-20 23:46:02,103 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+2024-10-20 23:46:03,918 - Max clicked
+2024-10-20 23:46:03,919 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+2024-10-20 23:46:04,889 - Download clicked
+2024-10-20 23:46:05,147 - Successfully downloaded data for AAPL to C:\Users\DEVANSHI\AppData\Local\Temp\playwright-artifacts-XXXXXXXZsOuz\c0629153-f709-40f9-96a8-1de8b428c3a8
+2024-10-20 23:46:05,148 - Closing the browser
+2024-10-20 23:46:05,544 - Browser closed
+2024-10-20 23:46:06,059 - Launching browser
+2024-10-20 23:46:06,312 - Browser launched
+2024-10-20 23:46:06,312 - Creating a new browser context
+2024-10-20 23:46:06,334 - Browser context created
+2024-10-20 23:46:06,334 - Opening a new page
+2024-10-20 23:46:06,608 - New page opened
+2024-10-20 23:46:06,608 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+2024-10-20 23:46:40,419 - Page loaded
+2024-10-20 23:46:40,420 - Clicking on the search bar: #find-symbol-input-dark
+2024-10-20 23:46:40,574 - Search bar clicked
+2024-10-20 23:46:40,574 - Typing text into the search bar: MSFT
+2024-10-20 23:46:40,606 - Text typed into the search bar
+2024-10-20 23:46:40,621 - Verification successful: Text correctly typed in the search bar
+2024-10-20 23:46:40,621 - Pressing Enter to search
+2024-10-20 23:46:40,654 - Enter key pressed
+2024-10-20 23:46:40,655 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+2024-10-20 23:46:44,444 - Option to select clicked
+2024-10-20 23:46:44,444 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+2024-10-20 23:46:47,557 - Max clicked
+2024-10-20 23:46:47,557 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+2024-10-20 23:46:48,967 - Download clicked
+2024-10-20 23:46:49,191 - Successfully downloaded data for MSFT to C:\Users\DEVANSHI\AppData\Local\Temp\playwright-artifacts-XXXXXX31G6FI\3d0c9e01-7f32-4d4f-8b53-507240ef1e09
+2024-10-20 23:46:49,191 - Closing the browser
+2024-10-20 23:46:49,583 - Browser closed
+2025-01-05 18:12:57,806 - Launching browser
+2025-01-05 18:12:59,794 - Browser launched
+2025-01-05 18:12:59,794 - Creating a new browser context
+2025-01-05 18:12:59,829 - Browser context created
+2025-01-05 18:12:59,829 - Opening a new page
+2025-01-05 18:13:06,374 - Launching browser
+2025-01-05 18:13:07,275 - Browser launched
+2025-01-05 18:13:07,277 - Creating a new browser context
+2025-01-05 18:13:07,305 - Browser context created
+2025-01-05 18:13:07,306 - Opening a new page
+2025-01-05 18:13:08,171 - New page opened
+2025-01-05 18:13:08,171 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+2025-01-05 18:13:52,348 - Page loaded
+2025-01-05 18:13:52,348 - Clicking on the search bar: #find-symbol-input-dark
+2025-01-05 18:13:52,547 - Search bar clicked
+2025-01-05 18:13:52,547 - Typing text into the search bar: AMD
+2025-01-05 18:13:52,582 - Text typed into the search bar
+2025-01-05 18:13:52,598 - Verification successful: Text correctly typed in the search bar
+2025-01-05 18:13:52,599 - Pressing Enter to search
+2025-01-05 18:13:52,644 - Enter key pressed
+2025-01-05 18:13:52,644 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+2025-01-05 18:13:56,693 - Option to select clicked
+2025-01-05 18:13:56,694 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+2025-01-05 18:13:59,085 - Max clicked
+2025-01-05 18:13:59,085 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+2025-01-05 18:14:01,143 - Download clicked
+2025-01-05 18:14:01,761 - Successfully downloaded data for AMD to C:\Users\DEVANSHI\AppData\Local\Temp\playwright-artifacts-XXXXXXCeLuYB\da6ba3c3-7230-4ac6-ba9a-becab4d299a6
+2025-01-05 18:14:01,762 - Closing the browser
+2025-01-05 18:14:02,164 - Browser closed
+2025-01-05 18:14:02,732 - Launching browser
+2025-01-05 18:14:03,058 - Browser launched
+2025-01-05 18:14:03,058 - Creating a new browser context
+2025-01-05 18:14:03,080 - Browser context created
+2025-01-05 18:14:03,080 - Opening a new page
+2025-01-05 18:14:03,348 - New page opened
+2025-01-05 18:14:03,349 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+2025-01-05 18:14:49,989 - Page loaded
+2025-01-05 18:14:49,990 - Clicking on the search bar: #find-symbol-input-dark
+2025-01-05 18:14:50,148 - Search bar clicked
+2025-01-05 18:14:50,149 - Typing text into the search bar: TSLA
+2025-01-05 18:14:50,192 - Text typed into the search bar
+2025-01-05 18:14:50,212 - Verification successful: Text correctly typed in the search bar
+2025-01-05 18:14:50,213 - Pressing Enter to search
+2025-01-05 18:14:50,245 - Enter key pressed
+2025-01-05 18:14:50,246 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+2025-01-05 18:14:57,649 - Option to select clicked
+2025-01-05 18:14:57,649 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+2025-01-05 18:15:01,483 - Max clicked
+2025-01-05 18:15:01,483 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+2025-01-05 18:15:02,989 - Download clicked
+2025-01-05 18:15:03,222 - Successfully downloaded data for TSLA to C:\Users\DEVANSHI\AppData\Local\Temp\playwright-artifacts-XXXXXXWtRr6G\98e97b46-d740-4ed5-8451-a3fb6f3cbf96
+2025-01-05 18:15:03,223 - Closing the browser
+2025-01-05 18:15:03,639 - Browser closed
+2025-01-05 18:15:04,252 - Launching browser
+2025-01-05 18:15:04,568 - Browser launched
+2025-01-05 18:15:04,569 - Creating a new browser context
+2025-01-05 18:15:04,596 - Browser context created
+2025-01-05 18:15:04,596 - Opening a new page
+2025-01-05 18:15:04,878 - New page opened
+2025-01-05 18:15:04,879 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical
+2025-01-05 18:16:24,836 - Page loaded
+2025-01-05 18:16:24,837 - Clicking on the search bar: #find-symbol-input-dark
+2025-01-05 18:16:24,987 - Search bar clicked
+2025-01-05 18:16:24,988 - Typing text into the search bar: META
+2025-01-05 18:16:25,040 - Text typed into the search bar
+2025-01-05 18:16:25,058 - Verification successful: Text correctly typed in the search bar
+2025-01-05 18:16:25,058 - Pressing Enter to search
+2025-01-05 18:16:25,089 - Enter key pressed
+2025-01-05 18:16:25,090 - Clicking on Searched Option: #resultsDark > a:nth-child(1)
+2025-01-05 18:16:31,531 - Option to select clicked
+2025-01-05 18:16:31,531 - Clicking on Max Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)
+2025-01-05 18:16:43,057 - Max clicked
+2025-01-05 18:16:43,059 - Clicking on Download Option: body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button
+2025-01-05 18:16:45,699 - Download clicked
+2025-01-05 18:16:45,988 - Successfully downloaded data for META to C:\Users\DEVANSHI\AppData\Local\Temp\playwright-artifacts-XXXXXXbci7Lw\13705d34-dc15-455c-ab71-0979b86e1822
+2025-01-05 18:16:45,988 - Closing the browser
+2025-01-05 18:16:46,431 - Browser closed
+2025-01-05 18:16:47,045 - Launching browser
+2025-01-05 18:16:47,364 - Browser launched
+2025-01-05 18:16:47,364 - Creating a new browser context
+2025-01-05 18:16:47,390 - Browser context created
+2025-01-05 18:16:47,391 - Opening a new page
+2025-01-05 18:16:47,667 - New page opened
+2025-01-05 18:16:47,668 - Navigating to URL: https://www.nasdaq.com/market-activity/quotes/historical

@@ -2,52 +2,15 @@ from playwright.sync_api import Playwright, sync_playwright
 import logging
 import os
 import time
-from datetime import datetime
-import pandas as pd
 
-# Generate a timestamp for the log file
-log_filename = f"progress_{datetime.now().strftime('%d-%m-%Y_%H-%M-%S')}.log"
-
-# Configure logging to include a timestamp in the log filename
-logging.basicConfig(filename=log_filename, level=logging.INFO, format='%(asctime)s - %(message)s', datefmt='%d/%m/%Y')
+# Configure logging
+logging.basicConfig(filename='progress.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
 def log_message(message: str) -> None:
     logging.info(message)
     print(message)
 
-def format_csv_columns(file_path: str, symbol: str) -> None:
-    """Format the columns in the CSV: ensure proper order, format date, remove dollar symbols, add 'Symbol' column, and save without header."""
-    try:
-        # Load the CSV into a DataFrame
-        df = pd.read_csv(file_path)
-        
-        # Remove dollar symbols and convert columns to float with 2 decimal places
-        for col in ['Close/Last', 'Open', 'High', 'Low']:
-            if col in df.columns:
-                df[col] = df[col].replace('[\$,]', '', regex=True).astype(float).round(2)
-        
-        # Ensure the 'Date' column is in YYYYMMDD format
-        if 'Date' in df.columns:
-            df['Date'] = pd.to_datetime(df['Date'], errors='coerce').dt.strftime('%Y%m%d')
-        
-        # Add a new column 'Symbol' with the value of the search term
-        df['Symbol'] = symbol
-        
-        # Rearrange columns
-        desired_order = ['Symbol', 'Date', 'Open', 'High', 'Low', 'Close/Last', 'Volume']
-        df = df.reindex(columns=desired_order, fill_value=None)
-        
-        # Rename 'Close/Last' to 'Close' for consistency
-        df.rename(columns={'Close/Last': 'Close'}, inplace=True)
-        
-        # Save the DataFrame to the CSV without headers
-        df.to_csv(file_path, index=False, header=False)
-        log_message(f"CSV formatted, headers removed, and saved at {file_path}")
-    except Exception as e:
-        log_message(f"Error formatting CSV: {e}")
-
-
-def search_in_page(playwright: Playwright, url: str, search_bar_selector: str, search_text: str, str_select_option: str, str_select_max: str, str_select_download: str, strDownloadPath: str) -> None:
+def search_in_page(playwright: Playwright, url: str, search_bar_selector: str, search_text: str, str_select_option: str, str_select_max: str, str_select_download: str,strDownloadPath: str) -> None:
     log_message("Launching browser")
     browser = playwright.chromium.launch(headless=False)
     log_message("Browser launched")
@@ -88,9 +51,15 @@ def search_in_page(playwright: Playwright, url: str, search_bar_selector: str, s
     page.click(str_select_option)
     log_message("Option to select clicked")
 
+    # Wait for the new page to load
+    #time.sleep(5)  # Adjust the sleep time as needed
+
     log_message(f"Clicking on Max Option: {str_select_max}")
     page.click(str_select_max)
     log_message("Max clicked")
+
+    # Wait for the option to be processed
+    #sleep(5)  # Adjust the sleep time as needed
 
     log_message(f"Clicking on Download Option: {str_select_download}")
 
@@ -100,14 +69,11 @@ def search_in_page(playwright: Playwright, url: str, search_bar_selector: str, s
 
     log_message("Download clicked")
 
-    # Save the downloaded file with timestamp in the file name
-    timestamp = datetime.now().strftime("%d-%m-%Y_%H-%M-%S")
-    download_path = os.path.join(strDownloadPath, "Downloads", search_text, f'{search_text}_{timestamp}.csv')
-    download.save_as(download_path)
+    # Save the downloaded file
+    download_path = download.path()
+    strDownloadPath = os.path.join(strDownloadPath, "Downloads" ,search_text,f'{search_text}.csv')
+    download.save_as(strDownloadPath)
     log_message(f"Successfully downloaded data for {search_text} to {download_path}")
-
-    # Format the CSV and add Symbol column
-    format_csv_columns(download_path, search_text)
 
     # Close the browser
     log_message("Closing the browser")
@@ -123,10 +89,10 @@ def run(SearchTerm):
             SearchTerm,
             '#resultsDark > a:nth-child(1)',
             'body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-tabs > div > button:nth-child(6)',
-            'body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button',
-            r'D:\Devanshi\Self study\USStockDownloder')
+            'body > div.dialog-off-canvas-main-canvas > div > main > div.page__content > article > div > div.nsdq-bento-layout__main.nsdq-c-band.nsdq-c-band--white.nsdq-u-padding-top-sm2.nsdq-u-padding-bottom-sm2.nsdq-c-band__overflow_hidden > div > div.nsdq-bento-ma-layout__qd-center.nsdq-sticky-container > div.ma-qd-symbol-info > div.layout__region.ma-qd-breadcrumb > div:nth-child(3) > div > div.historical-data-container > div.historical-controls > div.historical-download-container > button',r'D:\Devanshi\Self study\USStockDownloder')
 
 if __name__ == '__main__':
-    ls = ['AMD', 'TSLA', 'META', 'AAPL', 'MSFT']
+    ls = ['AMD','TSLA','META','AAPL','MSFT']
     for i in range(len(ls)):
+
         run(ls[i])
