@@ -78,8 +78,8 @@ def search_in_page(playwright: Playwright, symbol: str, str_select_max: str, str
     log_message("Download started")
 
     # Save downloaded file with timestamp and symbol
-    timestamp = datetime.now().strftime("%d-%m-%Y_%H-%M-%S")
-    filename = f"{symbol}_{timestamp}.csv"
+    #timestamp = datetime.now().strftime("%d-%m-%Y_%H-%M-%S")
+    filename = f"{symbol}.csv"
     download_path = os.path.join(str_download_path, "Downloads", filename)
     download.save_as(download_path)
     log_message(f"Downloaded CSV for {symbol} saved to {download_path}")
